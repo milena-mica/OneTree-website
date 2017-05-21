@@ -231,7 +231,8 @@ body {
 
 .timeline > li.timeline-inverted > .timeline-panel {
     float:right;
-}	
+}
 
-
-	
+.fa.fa-clock-o {
+    padding-right:3px;
+}
