@@ -1,4 +1,8 @@
-html, 
+/* COLORS 
+rgba(19, 128, 36, 0.54);
+*/
+
+html,
 body {
     height:100%;
     font-size:16px;
@@ -76,8 +80,13 @@ body {
 .fa-arrow-down:hover  {
      color:rgba(19, 128, 36, 0.54);
      transition:0.3s;    
-}   
+} 
 
+.parallax-btn {
+     width:200px;
+	 margin:30px auto 0 auto;
+	
+}	
 
 /* SPANS */
 
@@ -236,3 +245,90 @@ body {
 .fa.fa-clock-o {
     padding-right:3px;
 }
+
+
+
+/* SECTION PARALLAX */
+
+#section-parallax {
+    
+	text-align: right;
+	background:url(../img/trees.jpg) center repeat fixed;
+	padding:148px 0;
+	background-size: cover;
+	color:white;
+}
+
+/* SECTION CARDS */
+
+#section-cards h2 {
+    text-align: center;
+	
+}
+
+#section-cards {
+    padding:5rem 0;
+
+}
+
+.card {
+	margin-top:3rem;	
+}
+
+.card img {
+    transition:1s;
+}
+
+.card img:hover {
+	transform:scale(0.98);
+	transition:1s;
+}
+
+.card a {
+    color:rgba(19, 128, 36, 0.90);
+
+}
+
+.card a:hover {
+    color:rgba(19, 128, 36, 3);
+}
+
+
+/* SECTION NUMBERS */
+
+.section-numbers {
+    background-color:white;
+    padding-top:5rem;
+}
+
+h2 {
+	text-align: center;
+	
+}	
+	
+.num-content {
+	font-size: 28px,
+	line-height:29px;
+	height: 120px;
+	width:120px;
+	background:rgba(19, 128, 36, 0.91);
+	border-radius: 100px;
+	margin-left: 110px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+    color:white;
+}
+
+.num {
+	padding-top: 5rem;
+	padding-bottom: 5rem;	
+}
+
+.num-content p {
+	padding-top:15px;
+}
+
+
+	
