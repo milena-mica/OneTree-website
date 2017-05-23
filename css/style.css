@@ -319,6 +319,7 @@ h2 {
 	margin-bottom: 50px;
 	text-align: center;
     color:white;
+	transition.0,3s;
 }
 
 .num {
@@ -330,5 +331,52 @@ h2 {
 	padding-top:15px;
 }
 
-
+.num-content:hover {
+	color:#222;
+	transition:0,3s;
 	
+}
+
+
+/* SECTION TESTIMONIALS */
+
+.section-testimonials  {
+    padding-top: 5rem;
+
+}
+
+.testimonial {
+    margin-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.monka-img,
+.mario-img,
+.monice-img  {
+    width: 120px;
+	height: auto;
+    border-radius: 50%;
+	transition:0,5s;
+}
+
+.monka-img:hover,
+.mario-img:hover,
+.monice-img:hover  {
+    transition:0,5s;
+    transform: scale(1,1.2);
+}
+
+blockquote {
+    font-family:'Nunito-Regular';	
+}
+
+.fa.fa-quote-right {
+    margin-right: 10px;
+}
+
+.testimonials-hr {
+    border-top: 1px solid rgba(19, 128, 36, 1);
+	width: 230px;
+	background-color: rgba(19, 128, 36, 1);
+}
+
