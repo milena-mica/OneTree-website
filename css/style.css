@@ -380,3 +380,59 @@ blockquote {
 	background-color: rgba(19, 128, 36, 1);
 }
 
+
+/* SECTION CONTACTS*/
+
+.section-contact  {
+    background-color: white;
+	padding:10rem 0 10rem 0;
+}
+
+#contact.control-label {
+    font-size: 20px;
+	line-height: 80%;
+	margin-top:10px;
+
+}
+
+
+.form-control {
+    font-size: 18px;
+
+}
+
+.form-horizontal {
+    padding-top: 5rem;
+
+}
+
+textarea:focus, input:focus {
+    border-color: rgba(19, 128, 36, 0.53) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
+}
+
+#contact .btn.btn-success {
+    background-color: rgba(19, 128, 36, 1);
+	border:1px solid rgba(19, 128, 36, 1);
+    border-radius:5px;
+	font-size:20px;
+	margin-left:19px;
+	margin-top: 50px;
+	margin-bottom: 5rem;
+	transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 36, 0.9);
+    border:1px solid rgba(19, 128, 36, 1);
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
