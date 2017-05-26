@@ -103,11 +103,21 @@ body {
 .navbar-brand {
     font-family:'Cubano-Regular';
     padding-right: 15px;
+	
+}
+
+.navbar {
+
+	position: fixed;
+    top: 0;
+	width: 100%;
+	z-index:100;
+	border:1px solid #d4d4d4;
 }
 
 #main-nav {
     font-family:'Nunito-Regular';
-
+    
 }
 
 #main-nav li a {
