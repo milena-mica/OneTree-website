@@ -112,7 +112,7 @@ body {
     top: 0;
 	width: 100%;
 	z-index:100;
-	border:1px solid #d4d4d4;
+	border:1px solid #636c72;
 }
 
 #main-nav {
@@ -529,6 +529,47 @@ footer p {
       color:rgba(14, 96, 27, 0.92);
       transition:0.2s;
 }
+
+/* ANIMATIONS */
+
+.js-wp-1  {
+      opacity:0;
+	
+}
+.js-wp-1.animated {
+      opacity:2;
+}
+
+.js-wp-2  {
+      opacity:0;
+	  animation-delay: 0.7s;
+}
+.js-wp-2.animated {
+      opacity:2;
+}
+
+.js-wp-3  {
+      opacity:0;
+	  animation-delay: 0.7s;
+
+}
+.js-wp-3.animated {
+      opacity:2;
+}
+
+.js-wp-4  {
+      opacity:0;
+	  animation-delay: 1.4s;
+}
+.js-wp-4.animated {
+      opacity:2;
+}
+
+
+
+
+
+
 
 
 
