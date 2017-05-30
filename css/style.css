@@ -265,9 +265,11 @@ body {
     
 	text-align: right;
 	background:url(../img/trees.jpg) center repeat fixed;
-	padding:148px 0;
+	padding:200px 0 0 310px;
+    height: 500px;
 	background-size: cover;
 	color:white;
+   
 }
 
 /* SECTION CARDS */
@@ -287,6 +289,8 @@ body {
 }
 
 .card img {
+    height:180px;
+    width:100%;
     transition:1s;
 }
 
@@ -359,6 +363,7 @@ h2 {
 .testimonial {
     margin-top: 5rem;
 	padding-bottom: 5rem;
+   
 }
 
 .monka-img,
@@ -367,7 +372,7 @@ h2 {
     width: 120px;
 	height: auto;
     border-radius: 50%;
-	transition:0,5s;
+	transition:0.5s;
 }
 
 .monka-img:hover,
@@ -461,14 +466,15 @@ footer {
 .social-links li {
     display:inline-block;
 	margin-right: 20px;
-	margin-top: 30px;
-	padding-right: 25px;
+	margin-top: 50px;
+    margin-bottom: 30px;
+	padding-right: 15px;
 
 
 }
 
 .social-links li:last-child {
-    margin-right: 0;
+    margin-right:0;
 
 }
 
@@ -514,17 +520,20 @@ footer {
 footer p { 
       color:#888;
 	  text-align:center;
-	  margin-top: 45px;
-	  font-size: 18px;
+	  margin-top: 50px;
+      margin-bottom: 30px;
+	  font-size: 15px;
 
 }
 
 .fa-chevron-circle-up {
-	  margin-top:25px;
+	  margin-top:50px;
+      margin-bottom: 30px;
       color:rgb(14, 96, 27);
       transition:0.2s;
+      font-size: 40px;
 }
-
+ 
 .fa-chevron-circle-up:hover {
       color:rgba(14, 96, 27, 0.92);
       transition:0.2s;
@@ -559,15 +568,89 @@ footer p {
 
 .js-wp-4  {
       opacity:0;
-	  animation-delay: 1.4s;
+	 
 }
 .js-wp-4.animated {
       opacity:2;
+      animation-delay: 1.4s;
 }
 
 
 
+/* RESPONSIVENESS */
 
+
+@media only screen and (max-width:1920px) {
+
+     .wall-sticker  {
+          font-size:3.9rem;
+          padding:16rem 20rem 10rem 3rem;
+      
+    }
+    
+}
+
+
+@media only screen and (max-width:1200px) {
+    
+     .fa-facebook-square,
+     .fa-twitter-square,
+     .fa-google-plus-square,
+     .fa-instagram  { 
+         font-size:35px;
+
+    }
+    
+    
+ }
+
+
+@media only screen and (max-width:1024px) {
+     .navbar  {
+        font-size:15px;
+
+   }
+     .fa-arrow-down {
+         position: absolute;
+         right:135px;
+         
+   }      
+          
+                 
+      .monka-img,
+      .mario-img,
+      .monice-img  {
+          width: 65px;
+          height: 65px;      
+       
+} 
+    
+.testimonials-hr   {   
+          width:210px;
+    
+}    
+   
+     .fa-facebook-square,
+     .fa-twitter-square,
+     .fa-google-plus-square,
+     .fa-instagram  { 
+         font-size:15px;
+ 
+    
+   } 
+
+
+}
+
+
+@media only screen and (max-width:992px) {
+
+     .moto  {
+        font-size:2.2rem;
+         
+   }      
+    
+}
 
 
 
